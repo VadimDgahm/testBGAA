@@ -1,0 +1,12 @@
+
+.firstData{
+    margin-bottom: 5px;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-size: 12px;
+}
+.title{
+    font-weight: bold;
+}

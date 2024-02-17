@@ -1,0 +1,30 @@
+.rowHeader{
+    border-bottom: 2px solid black;
+}
+.cell{
+
+    border: 1px solid #e5e5e5;
+    padding: 5px;
+}
+.first{
+    width: 20%;
+}
+.title{
+    width: 100%;
+    text-align: center;
+}
+.buttonRemove{
+all: inherit;
+    cursor: pointer;
+
+}
+.cellContent{
+    display: flex;
+    align-items: center;
+}
+.buttonRemove svg path{
+    transition: 0.3s;
+}
+.buttonRemove:hover svg path{
+    stroke: red;
+}

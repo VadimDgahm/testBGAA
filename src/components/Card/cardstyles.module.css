@@ -1,0 +1,10 @@
+.card{
+    padding: 10px;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+}
+.firstGroupData{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #d2d2d2;
+}

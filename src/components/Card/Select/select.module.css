@@ -1,0 +1,36 @@
+.selectRow{
+  display: flex;
+  justify-content: space-between;
+padding: 5px;
+  background-color: #ffffff;
+  align-items: center;
+
+}
+.select{
+  width: 100%;
+border-radius: 5px;
+  border: 2px solid #e5e5e5;
+  border-bottom: none;
+}
+.row{
+  padding: 5px;
+  background-color: #f8faff;
+}
+.buttonArrow{
+  cursor: pointer;
+  margin-left:5px ;
+
+  background-color: #354c6c;
+  border: none;
+  height: 100%;
+  border-radius: 3px;
+  transition: 0.3s;
+
+}
+.buttonArrow:hover{
+  background-color: #b4d6ff;
+}
+.buttonArrow:disabled{
+  cursor: not-allowed;
+  background-color: #646464;
+}

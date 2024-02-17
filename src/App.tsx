@@ -14,7 +14,6 @@ function App() {
         dispatch(getCard())
     }, []);
     const updateCards = () => {
-        console.log(cards)
         cardApi.updateCards(cards)
     }
     return (

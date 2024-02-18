@@ -10,6 +10,6 @@ export const cardApi = {
         return instance.get('test')
     },
     updateCards(cards: CardDataType[]){
-        return instance.put('test_result')
+        return instance.put('test_result', cards)
     }
 }
